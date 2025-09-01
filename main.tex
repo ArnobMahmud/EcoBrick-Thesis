@@ -1,13 +1,24 @@
 \documentclass[a4paper, 12pt]{report}
-\usepackage{graphicx} % Required for inserting images
 
+\usepackage{graphicx} % Required for inserting images
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{enumitem} % for better list control
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{float}
+\renewcommand{\tabularxcolumn}[1]{>{\centering\arraybackslash}m{#1}}
+
+\setlength{\fboxrule}{0.5pt} 
+\setlength{\fboxsep}{4pt} 
 
 \author{Arnob Mahmud}
 
 \begin{document}
+
 \input{Cover}
 \input{Abstract}
 \input{Acknowledgement}
