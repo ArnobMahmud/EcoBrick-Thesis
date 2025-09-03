@@ -1,9 +1,6 @@
 # EcoBrick Thesis
 
-
-
 Eco bricks are building materials made from sustainable, recycled resources such as plastic, textiles, and other waste materials. They serve as an alternative to traditional clay bricks, which have a significant environmental impact due to the high energy consumption in their production process.
-
 
 ## Structure
 - `main.tex`: Main LaTeX file for compiling the thesis.
@@ -19,6 +16,9 @@ Eco bricks are building materials made from sustainable, recycled resources such
    pdflatex main.tex
    ```
    Repeat as needed to resolve references.
+
+## Read Thesis
+[EcoBrick-Thesis.pdf](https://github.com/user-attachments/files/22117697/EcoBrick-Thesis.pdf)
 
 ## Highlights
 - Utilizes recycled textile waste for sustainable brick production.
